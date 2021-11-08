@@ -61,7 +61,7 @@ def send_mail(destinatario_ : list):
     sesion_smtp.starttls()
 
     # Iniciamos sesión en el servidor
-    sesion_smtp.login('actinverdc@gmail.com','Actinver2021')
+    sesion_smtp.login('actinverdc@gmail.com','Actinver2021*')
 
     # Convertimos el objeto mensaje a texto
     texto = mensaje.as_string()
