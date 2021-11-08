@@ -55,7 +55,7 @@ def send_mail(destinatario_ : list):
     mensaje.attach(adjunto_MIME)
 
     # Creamos la conexión con el servidor
-    sesion_smtp = smtplib.SMTP('smtp.gmail.com', 587)
+    sesion_smtp = smtplib.SMTP('smtp.gmail.com', 465)
 
     # Ciframos la conexión
     sesion_smtp.starttls()
