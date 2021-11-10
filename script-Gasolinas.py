@@ -132,8 +132,8 @@ def main():
     df.to_csv('InfoGas.csv', index=False, header=False, mode='a')
     
     ####Send Data
-    #send_mail(['314159735@pcpuma.acatlan.unam.mx'])
-    send_mail(['314159735@pcpuma.acatlan.unam.mx','agaliciad@actinver.com.mx'])
+    send_mail(['314159735@pcpuma.acatlan.unam.mx'])
+    #send_mail(['314159735@pcpuma.acatlan.unam.mx','agaliciad@actinver.com.mx'])
 
 
 # In[6]:
