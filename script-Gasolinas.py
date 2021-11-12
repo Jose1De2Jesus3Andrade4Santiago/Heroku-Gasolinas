@@ -8,6 +8,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 from datetime import datetime
+from datetime import timedelta
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -82,10 +83,8 @@ def get_date():
     '''
     Return the current day and month
     '''
-    return datetime.today().strftime('%d-%b')
-
-
-# In[4]:
+    today = datetime.today() -  timedelta(days=1)
+    return today.strftime('%d-%b')
 
 
 def retieve_data():
