@@ -1,4 +1,4 @@
-Fecha,Ubicación,Gasolina regular,Gasolina Premium,Diesel,Gas natural
+﻿Fecha,Ubicación,Gasolina regular,Gasolina Premium,Diesel,Gas natural
 06-oct,Nacional,20.144,22.333,21.737,10.544
 06-oct,CDMX,20.614,22.905,21.88,N/A
 06-oct,Jalisco,20.485,22.671,21.72,N/A
@@ -114,4 +114,4 @@ Fecha,Ubicación,Gasolina regular,Gasolina Premium,Diesel,Gas natural
 16-nov,Nacional,20.055,22.289,21.642,10.544
 16-nov,CDMX,20.551,22.902,21.812,N/A
 16-nov,Jalisco,20.449,22.651,21.658,N/A
-16-nov,Nuevo León,21.009,23.451,21.670,N/A
+16-nov,Nuevo León,21.009,23.451,21.67,N/A
