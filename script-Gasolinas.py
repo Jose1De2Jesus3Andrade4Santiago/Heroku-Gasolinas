@@ -83,7 +83,7 @@ def get_date():
     '''
     Return the current day and month
     '''
-    today = datetime.today() -  timedelta(days=1)
+    today = datetime.today() #-  timedelta(days=1)
     return today.strftime('%d-%b')
 
 
